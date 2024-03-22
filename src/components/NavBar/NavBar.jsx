@@ -25,7 +25,7 @@ const NavBar = () => {
               isActive ? styles.active : styles.notActive
             }
           >
-            Login
+            Entrar
           </NavLink>
         </li>
         <li>
@@ -35,7 +35,7 @@ const NavBar = () => {
               isActive ? styles.active : styles.notActive
             }
           >
-            Register
+            Registrar
           </NavLink>
         </li>
         <li>
@@ -45,7 +45,7 @@ const NavBar = () => {
               isActive ? styles.active : styles.notActive
             }
           >
-            About
+            Sobre
           </NavLink>
         </li>
       </ul>
