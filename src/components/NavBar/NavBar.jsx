@@ -11,7 +11,9 @@ const NavBar = () => {
         <li>
           <NavLink
             to="/"
-            className={({ isActive }) => (isActive ? styles.active : "")}
+            className={({ isActive }) =>
+              isActive ? styles.active : styles.notActive
+            }
           >
             Home
           </NavLink>
@@ -19,7 +21,9 @@ const NavBar = () => {
         <li>
           <NavLink
             to="/about"
-            className={({ isActive }) => (isActive ? styles.active : "")}
+            className={({ isActive }) =>
+              isActive ? styles.active : styles.notActive
+            }
           >
             About
           </NavLink>
